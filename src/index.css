@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#root {
+  --bg-light-green: #9FD9DA;
+  --font-green-500: #1C6B6C;
+  --font-gray-500: #3B3B3B;
+  --font-gray-200: #535353;
+
+  color: var(--font-gray-200);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
