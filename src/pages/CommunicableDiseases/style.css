@@ -1,0 +1,73 @@
+.communicable-diseases-container > header {
+    background-color: var(--bg-light-green);
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 30px;
+}
+
+.communicable-diseases-container > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+
+    color: var(--font-gray-500);
+    font-weight: 600;
+}
+
+.communicable-diseases-highlight-info,
+.communicable-diseases-intro,
+.communicable-diseases-content,
+.communicable-diseases-footer {
+    display: flex;
+    padding: 0 50px;
+}
+
+.communicable-diseases-intro,
+.communicable-diseases-content {
+    margin-bottom: 30px;
+    gap: 30px;   
+}
+
+.communicable-diseases-intro > .intro-description,
+.communicable-diseases-content > .content-description {
+    text-align: justify;
+    display: flex;
+    /* gap: 30px; */
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.communicable-diseases-intro > .intro-img img,
+.communicable-diseases-content > .content-img img {
+    max-width: 40rem;
+}
+
+.communicable-diseases-highlight-info {
+    background-color: var(--bg-light-green);
+    display: flex;
+    margin-bottom: 50px;
+    padding: 50px 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: var(--font-green-500);
+}
+
+.communicable-diseases-highlight-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.communicable-diseases-footer {
+    background: linear-gradient(rgb(160, 217, 218, 0.4), rgb(5, 95, 97, 0.4));
+    height: 20rem;
+    padding: 30px;
+}
+
+.communicable-diseases-footer > .footer-description {
+ display: flex;
+ gap: 20px;
+
+ text-align: justify;
+}

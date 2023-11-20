@@ -1,8 +1,15 @@
 import React from 'react'
 import { Home } from './pages/Home'
+import { CommunicableDiseases } from './pages/CommunicableDiseases'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export const App = () => {
   return (
-    <Home />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/communicable-diseases' element={<CommunicableDiseases />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
