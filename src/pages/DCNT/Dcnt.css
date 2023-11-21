@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+img
+{
+  width: 40px;
+  height: 40px;
+}
+
+ul
+{
+  list-style: none;
+}
+
+ul li a img {
+  width: 100px;
+  height: 85px;
+}
+
+.nav
+{
+  text-align: center;
+}
+
+.nav-link 
+{
+  padding-top: 20px;
+}
+
+.navbar-brand
+{
+  padding-left: 10px;
+}
+
+.exameMedico img
+{
+  height: 612px;
+  width: 812px;
+  border-radius: 10px;
+}
+
+.fatorRisco img
+{
+  height: 483px;
+  width: 1350px;
+  padding: 0px;
+  
+}
+
+
+.text
+{
+  
+  border-radius: 10px;
+}
+
+.text img
+{
+  height: 612px;
+  width: 812px;
+  border-radius: 10px;
+}
+
+.text h1
+{
+  font-size: 50px;
+  text-align: center;
+}
+
+.text p
+{
+  font-size: 20px;
+}
+
+.bi
+{
+  width: 25px;
+  height: 25px;
+}
+
+.row
+{
+  padding-top: 20px;
+}
+
+.textoDoenca
+{
+  display: inline;
+  font-weight: bold;
+}
+
+.iconeDoenca
+{
+  display: inline;
+  
+}
+
+.fatorRisco img
+{
+  width: 542px;
+  height: 460px;
+  padding-right: 5px;
+}
+
+.background1
+{
+  padding: 0;
+  background-color: cadetblue;
+}
+
+
+/*# sourceMappingURL=Dcnt.css.map */
