@@ -1,11 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
 
 *{
   padding: 0;
   margin: 0;
   font-family: 'Roboto Slab', serif;
+}
+
+h3
+{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+  font-size: calc(1.3rem + 0.6vw);
 }
 
 img
@@ -41,8 +50,8 @@ ul li a img {
 
 .exameMedico img
 {
-  height: 612px;
-  width: 812px;
+  height: 100vh;
+  width: 48vw;
   border-radius: 10px;
 }
 
@@ -87,13 +96,14 @@ ul li a img {
 
 .row
 {
-  padding-top: 20px;
+  padding: 0;
 }
 
 .textoDoenca
 {
   display: inline;
   font-weight: bold;
+  font-size: larger;
 }
 
 .iconeDoenca
@@ -109,10 +119,28 @@ ul li a img {
   padding-right: 5px;
 }
 
-.background1
+.background-1
 {
-  padding: 0;
-  background-color: cadetblue;
+  display: flex;
+  background-color: var(--bg-light-green);
+  padding-top: 5vh;
+  padding-left: 5vh;
+}
+
+.background-2
+{
+  display: flex;
+  padding: 2vw 10vh;
+}
+
+.col-4
+{
+  padding: 2vw 2vh;
+}
+
+.background-1, col-6
+{
+  justify-content: center;
 }
 
 

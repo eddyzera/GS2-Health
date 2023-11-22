@@ -7,6 +7,7 @@ export const Home = () => {
     <>
     <h1>Hello Home</h1>
     <Link to="/communicable-diseases">Combate a doenças transmissíveis</Link>
+    <Link to="/Dcnt">Doenças Cronicas não transmissíveis</Link> 
     </>
   )
 }
