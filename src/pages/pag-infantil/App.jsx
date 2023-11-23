@@ -1,63 +1,62 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Desvendando a Mortalidade Infantil</title>
-</head>
-<body>
+import React from 'react';
+import './style.css';
 
-<div class="container">
-  <div class="row no-gutters">
-    <div class="col-md-6">
-      <div class="image-text-container d-flex align-items-center">
-        <img src="/src/assets/images/banner_top.jpg" class="img-fluid" alt="mão de um bebê">
+import banner from '../../assets/images/banner_top.jpg'
+import intro from '../../assets/images/intro.jpg'
+import criancas from '../../assets/images/criancas.jpg'
+import africa from '../../assets/images/africa.jpg'
+import sulasia from '../../assets/images/sul-asia.jpg'
+import latina from '../../assets/images/latina.jpg'
+import sudesteasia from '../../assets/images/sudeste-asia.jpg'
+import orientemedio from '../../assets/images/oriente-medio.jpg'
+
+function App() {
+    return(
+<div className="container class-body">
+  <div className="row no-gutters">
+    <div className="col-md-6">
+      <div className="image-text-container d-flex align-items-center">
+        <img src={banner} className="img-fluid" alt="mão de um bebê"/>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="jumbotron text-center">
-        <h1 class="display-4">Desvendando a Mortalidade Infantil:</h1>
-        <p class="lead">Neste espaço, mergulharemos nas causas e prevenções. Cada linha revela uma parte crucial de um quebra-cabeça global. Sua curiosidade é a chave para desbloquear um entendimento mais profundo.</p>
+    <div className="col-md-6">
+      <div className="jumbotron text-center">
+        <h1 className="display-4">Desvendando a Mortalidade Infantil:</h1>
+        <p className="lead">Neste espaço, mergulharemos nas causas e prevenções. Cada linha revela uma parte crucial de um quebra-cabeça global. Sua curiosidade é a chave para desbloquear um entendimento mais profundo.</p>
       </div>
     </div>
   </div>
 
-  <div class="welcome-section">
+  <div className="welcome-section">
     <h1>Bem-Vindo à Jornada pela Saúde Infantil: Reduzindo a Mortalidade para um Futuro Promissor</h1>
     <p>Seja bem-vindo a este espaço dedicado à conscientização e ação na busca por um futuro onde cada criança tenha a oportunidade de prosperar. A mortalidade infantil persiste como um desafio global, mas através da compreensão, colaboração e ação, podemos transformar essa realidade.</p>
   </div>
 
-<!-- Nova seção ajustada -->
-  <div class="row feature-section">
-    <!-- Texto -->
-    <div class="col-md-6 feature-content">
+  <div className="row feature-section">
+
+    <div className="col-md-6 feature-content">
       <h2>O Desafio da Mortalidade Infantil:</h2>
       <p>A perda de vidas precoces de crianças é um obstáculo que transcende fronteiras, afetando comunidades em todos os cantos do mundo. No entanto, é uma barreira que podemos superar com esforços coordenados e estratégias eficazes.</p>
-      <br><br><br><br><br><br><br><br><br>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
   
       <h2>Nossa Missão:</h2>
       <p>Este espaço é mais do que uma página informativa; é um convite à ação. Exploraremos as causas da mortalidade infantil, as estratégias comprovadas para prevenção e histórias de comunidades que transformaram desafios em triunfos.</p>
-      <br><br><br><br><br><br><br><br><br>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
   
       <h2>Seu Papel na Transformação:</h2>
       <p>Você é parte fundamental dessa jornada. Ao se informar, compartilhar conhecimentos e contribuir com iniciativas, você desempenha um papel vital na criação de um ambiente onde cada criança possa crescer saudável e plena.</p>
     </div>
-  
-    <!-- Imagem -->
-    <div class="col-md-6 feature-image">
-      <img src="/src/assets/images/intro.jpg" class="img-fluid" alt="irmãos crianças">
+
+    <div className="col-md-6 feature-image">
+      <img src={intro} className="img-fluid" alt="irmãos crianças"/>
     </div>
   </div>
 
-  <!-- Nova seção informativa -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-12">
         <h2><strong>Redução da Mortalidade Infantil: Um Guia Informativo</strong></h2>
-        <br>
+        <br/>
         <h3>Visão Geral:</h3>
         <p>A mortalidade infantil, um desafio global, reflete não apenas a fragilidade da saúde infantil, mas também a complexidade de fatores que contribuem para essa realidade. Estamos diante de um panorama onde milhões de crianças enfrentam ameaças que vão desde doenças infecciosas evitáveis até complicações no parto e desnutrição. Este espaço é dedicado a desvendar essas causas, explorar estratégias eficazes de prevenção e compartilhar narrativas que ilustram tanto os obstáculos quanto os triunfos. Cada dado apresentado é um convite à reflexão sobre o papel que todos nós desempenhamos na construção de um mundo onde a mortalidade infantil seja uma preocupação do passado. Junte-se a nós nesta jornada, onde conhecimento e ação se entrelaçam para moldar um futuro mais saudável e promissor para as crianças em todo o mundo.</p>
 
@@ -107,133 +106,131 @@
   </div>
 
 
-  <!-- Nova seção informativa com imagem -->
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-              <div class="image-container d-flex justify-content-center">
-                  <img src="/src/assets/images/criancas.jpg" class="img-fluid" alt="crianças desenhada">
+  <div className="container">
+      <div className="row">
+          <div className="col-md-12">
+              <div className="image-container d-flex justify-content-center">
+                  <img src={criancas} className="img-fluid" alt="crianças desenhada"/>
               </div>
           </div>
       </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-12 text-center">
         <h2><strong>Soluções Integradas para Mortalidade Infantil: Abordagens Convencionais e Tecnológicas por Região</strong></h2>
-        <br><br>
+        <br/><br/>
       </div>
     </div>
   
-    <!-- Divs com imagens e textos -->
-    <div class="row solution-div">
-      <div class="col-md-6 order-md-1 blue-bg-1">
-        <h2 class="text-center">África</h2>
-        <br><br>
+    <div className="row solution-div">
+      <div className="col-md-6 order-md-1 blue-bg-1">
+        <h2 className="text-center">África</h2>
+        <br/><br/>
         <ul>
             <h3>Desafios:</h3>
             <li>Elevadas taxas de mortalidade infantil devido a doenças infecciosas, desnutrição e falta de acesso a serviços de saúde.</li>
-            <br><br><br><br>
+            <br /><br /><br /><br />
             <h3>Soluções Tradicionais:</h3>
             <li><strong>Acesso a Água Potável e Saneamento:</strong> Investir em infraestrutura para garantir acesso a água potável e instalações sanitárias.</li>
             <li><strong>Programas de Vacinação:</strong> Implementar campanhas de vacinação em larga escala.</li>
-            <br><br><br><br>
+            <br /><br /><br /><br />
             <h3>Soluções Tecnológicas:</h3>
             <li><strong>Telemedicina para Regiões Remotas:</strong> Facilitar o acesso a cuidados médicos através de consultas virtuais.</li>
             <li><strong>Aplicativos de Educação em Saúde:</strong> Fornecer informações sobre saúde materno infantil diretamente para comunidades remotas.</li>
         </ul>
       </div>
-      <div class="col-md-6 order-md-2 image-side blue-bg-1">
-        <img src="/src/assets/images/africa.jpg" class="img-fluid" alt="criança africana">
+      <div className="col-md-6 order-md-2 image-side blue-bg-1">
+        <img src={africa} className="img-fluid" alt="criança africana"/>
       </div>
   </div>
   
-    <div class="row solution-div">
-      <div class="col-md-6 order-md-2 text-side blue-bg-2">
-        <h2 class="text-center">Sul da Ásia</h2>
-        <br><br>
+    <div className="row solution-div">
+      <div className="col-md-6 order-md-2 text-side blue-bg-2">
+        <h2 className="text-center">Sul da Ásia</h2>
+        <br/><br/>
         <ul>
             <h3>Desafios:</h3>
             <li>Altas taxas de mortalidade infantil relacionadas a complicações no parto, desnutrição e falta de cuidados neonatais.</li>
-            <br><br><br><br><br><br>
+            <br/><br/><br/><br/><br/><br/>
             <h3>Soluções Tradicionais:</h3>
             <li><strong>Melhoria da Nutrição Materna e Infantil:</strong>  Implementar programas de educação nutricional e fornecer suplementos alimentares.</li>
             <li><strong>Cuidados Neonatais Intensivos:</strong> Estabelecer unidades especializadas para cuidados neonatais.</li>
-            <br><br><br><br><br><br>
+            <br/><br/><br/><br/><br/><br/>
             <h3>Soluções Tecnológicas:</h3>
             <li><strong>Aplicativos de Rastreamento Pré-natal:</strong> Facilitar o monitoramento remoto da gravidez.</li>
             <li><strong>Sistemas de Informação em Saúde:</strong> Melhorar o compartilhamento de informações entre profissionais de saúde.</li>
         </ul>
       </div>
-      <div class="col-md-6 order-md-1 image-side blue-bg-2">
-        <img src="/src/assets/images/sul-asia.jpg" class="img-fluid" alt="criança asiatica">
+      <div className="col-md-6 order-md-1 image-side blue-bg-2">
+        <img src={sulasia} className="img-fluid" alt="criança asiatica" />
       </div>
     </div>
 
-    <div class="row solution-div">
-        <div class="col-md-6 order-md-1 text-side blue-bg-3">
-          <h2 class="text-center">América Latina</h2>
-          <br><br>
+    <div className="row solution-div">
+        <div className="col-md-6 order-md-1 text-side blue-bg-3">
+          <h2 className="text-center">América Latina</h2>
+          <br/><br/>
           <ul>
             <h3>Desafios:</h3>
             <li>Desigualdades regionais nas taxas de mortalidade infantil e acesso variável a serviços de saúde.</li>
-            <br><br><br><br><br><br>
+            <br /><br /><br /><br /><br /><br />
             <h3>Soluções Tradicionais:</h3>
             <li><strong>Acesso Universal à Saúde:</strong> Fortalecer sistemas de saúde para proporcionar acesso igualitário a serviços médicos de qualidade.</li>
             <li><strong>Educação Materna:</strong> Implementar programas de educação para gestantes e mães sobre cuidados infantis.</li>
-            <br><br><br><br><br><br>
+            <br /><br /><br /><br /><br /><br />
             <h3>Soluções Tecnológicas:</h3>
             <li><strong>Prontuários Eletrônicos:</strong> Facilitar o compartilhamento de informações de saúde entre diferentes unidades.</li>
             <li><strong>Aplicativos de Promoção de Saúde:</strong> Fornecer orientações personalizadas sobre cuidados infantis.</li>
         </ul>
         </div>
-        <div class="col-md-6 order-md-2 image-side blue-bg-3">
-          <img src="/src/assets/images/latina.jpg" class="img-fluid" alt="criança latina">
+        <div className="col-md-6 order-md-2 image-side blue-bg-3">
+          <img src={latina} className="img-fluid" alt="criança latina" />
         </div>
       </div>
 
-      <div class="row solution-div">
-        <div class="col-md-6 order-md-2 text-side blue-bg-4">
-          <h2 class="text-center">Sudeste Asiático</h2>
-          <br><br>
+      <div className="row solution-div">
+        <div className="col-md-6 order-md-2 text-side blue-bg-4">
+          <h2 className="text-center">Sudeste Asiático</h2>
+          <br/><br/>
           <ul>
             <h3>Desafios:</h3>
             <li>Elevada mortalidade infantil relacionada a doenças infecciosas, complicações neonatais e subnutrição.</li>
-            <br><br><br><br><br><br>
+            <br /><br /><br /><br /><br /><br />
             <h3>Soluções Tradicionais:</h3>
             <li><strong>Campanhas de Vacinação e Controle de Doenças:</strong> Implementar programas de vacinação e estratégias para o controle de doenças infecciosas.</li>
             <li><strong>Fortalecimento dos Sistemas de Saúde:</strong> Investir em infraestrutura e treinamento de profissionais de saúde.</li>
-            <br><br><br><br><br><br>
+            <br /><br /><br /><br /><br /><br />
             <h3>Soluções Tecnológicas:</h3>
             <li><strong>Aplicativos de Monitoramento de Saúde Infantil:</strong> Facilitar o acompanhamento remoto da saúde das crianças.</li>
             <li><strong>Uso de Drones para Entrega de Suprimentos Médicos:</strong> Agilizar a entrega de medicamentos e suprimentos em áreas remotas.</li>
         </ul>
         </div>
-        <div class="col-md-6 order-md-1 image-side blue-bg-4">
-          <img src="/src/assets/images/sudeste-asia.jpg" class="img-fluid" alt="criança asiatica">
+        <div className="col-md-6 order-md-1 image-side blue-bg-4">
+          <img src={sudesteasia} className="img-fluid" alt="criança asiatica" />
         </div>
       </div>
 
-      <div class="row solution-div">
-        <div class="col-md-6 order-md-1 text-side blue-bg-5">
-          <h2 class="text-center">Oriente Médio</h2>
-          <br><br>
+      <div className="row solution-div">
+        <div className="col-md-6 order-md-1 text-side blue-bg-5">
+          <h2 className="text-center">Oriente Médio</h2>
+          <br /><br />
           <ul>
             <h3>Desafios:</h3>
             <li>Variações nas taxas de mortalidade infantil devido a conflitos, deslocamento populacional e infraestrutura de saúde fragilizada.</li>
-            <br><br>
+            <br /><br />
             <h3>Soluções Tradicionais:</h3>
             <li><strong>Acesso a Serviços de Saúde em Zonas de Conflito:</strong> Garantir acesso contínuo a cuidados de saúde em áreas afetadas por conflitos.</li>
             <li><strong>Apoio Psicossocial:</strong> Implementar programas de apoio psicossocial para famílias afetadas por conflitos.</li>
-            <br><br>
+            <br /><br />
             <h3>Soluções Tecnológicas:</h3>
             <li><strong>Registros de Saúde Eletrônicos em Situações de Emergência:</strong> Facilitar o acesso a históricos médicos durante deslocamentos.</li>
             <li><strong>Plataformas de Telepsicologia:</strong> Oferecer serviços de apoio psicológico remotamente.</li>
         </ul>
         </div>
-        <div class="col-md-6 order-md-2 image-side blue-bg-5">
-          <img src="/src/assets/images/oriente-medio.jpg" class="img-fluid" alt="duas crianças do oriente-medio">
+        <div className="col-md-6 order-md-2 image-side blue-bg-5">
+          <img src={orientemedio} className="img-fluid" alt="duas crianças do oriente-medio" />
         </div>
       </div>
   
@@ -245,9 +242,7 @@
 
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    )
+}
 
-</body>
-</html>
+export default App
