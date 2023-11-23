@@ -1,6 +1,9 @@
 import React from "react";
 import Bootstrap from "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./Dcnt.css";
+import { Link } from 'react-router-dom';
+import Menu from "../../components/components/Menu";
+
 import Logo from "../../assets/images/channels4_profile-removebg-preview(1).png";
 import Coracao from "../../assets/images/coracao.png";
 import Cancer from "../../assets/images/cancer.png";
@@ -13,38 +16,12 @@ import ExameMedico from "../../assets/images/istockphoto-1026367516-612x612.jpg"
 import FatorRisco from "../../assets/images/risk-factors-1-removebg-preview.png";
 
 
+
 function Dcnt(){
     return(
         <>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    
-                    <li class="navbar-brand" href="#">
-                        <a class="navbar-brand" href="#">
-                            <img src={Logo} alt="" />
-                        </a>
-                    </li>
+        <Menu/>
 
-                    <li class="nav-link">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a class="nav-link" href="#">Doenças transmissíveis</a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a class="nav-link" href="#">Doenças não transmissíveis</a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a class="nav-link" href="#">Saúde geral</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6">
