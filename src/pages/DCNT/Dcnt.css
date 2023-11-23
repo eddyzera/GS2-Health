@@ -99,6 +99,11 @@ ul li a img {
   padding: 0;
 }
 
+.col-12
+{
+  padding: 0;
+}
+
 .textoDoenca
 {
   display: inline;
@@ -143,5 +148,11 @@ ul li a img {
   justify-content: center;
 }
 
+.textoDoenca2
+{
+  background: linear-gradient(rgb(160, 217, 218, 0.4), rgb(5, 95, 97, 0.4));
+  height: 15rem;
+  padding: 30px;
+}
 
 /*# sourceMappingURL=Dcnt.css.map */

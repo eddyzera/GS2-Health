@@ -244,12 +244,30 @@ function Dcnt(){
                         </div>
                     </div>
                 </div>
-                        <div class="textoDoenca">
+                    <div class="row">
+                        <div class="col-4">
                             <p>Essas doenças compartilham fatores de risco comuns, incluindo hábitos de vida pouco saudáveis, como dieta inadequada, sedentarismo, tabagismo e consumo excessivo de álcool. O impacto das DCNT na saúde global é significativo, representando uma carga substancial para os sistemas de saúde e contribuindo para a morbidade e a mortalidade em todo o mundo. Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública.</p>
                         </div>
+
+                        <div class="col-4">
+                        <p>Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública. Estratégias abrangentes que visam modificar os comportamentos de risco, promover estilos de vida saudáveis e facilitar o acesso a cuidados médicos preventivos são fundamentais. Além disso, investimentos contínuos em pesquisas para compreender melhor os mecanismos subjacentes e desenvolver tratamentos inovadores são cruciais para enfrentar o desafio crescente apresentado pelas DCNT.</p>
+                        </div>
+
+                        <div class="col-4">
+                            <p>É imperativo que os esforços de saúde pública se concentrem não apenas na gestão das doenças, mas também na criação de ambientes que incentivem escolhas saudáveis. Isso inclui iniciativas para melhorar a educação sobre saúde, políticas de preços que tornem alimentos saudáveis mais acessíveis, espaços públicos que promovam a atividade física e campanhas anti-tabagismo eficazes. Ao abordar esses aspectos de maneira integrada, é possível reduzir a incidência de DCNT e, consequentemente, aliviar a pressão sobre os sistemas de saúde, proporcionando uma melhoria substancial na qualidade de vida da população mundial.</p>
+                        </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="textoDoenca2">
+                                <p>Doenças Crônicas Não Transmissíveis (DCNT), como diabetes, doenças cardiovasculares e câncer, compartilham fatores de risco associados a hábitos de vida prejudiciais, incluindo dieta inadequada, sedentarismo, tabagismo e consumo excessivo de álcool. Essas condições representam uma carga substancial para os sistemas de saúde global, contribuindo para morbidade e mortalidade. A abordagem eficaz dessas doenças requer estratégias abrangentes, desde a promoção de estilos de vida saudáveis até o investimento em pesquisas para desenvolvimento de tratamentos inovadores. A prevenção, diagnóstico precoce e manejo integrado, com enfoque na saúde mental, são cruciais. A conscientização, acesso facilitado a serviços de saúde, tecnologias inovadoras e abordagens multidisciplinares são fundamentais para enfrentar esse desafio de maneira holística, visando não apenas a gestão clínica, mas também a transformação de ambientes sociais e comportamentais.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                        
                     </div>
                 </div>
-            
+            </div>
         
             
         </>
