@@ -9,7 +9,7 @@ import { keyboardImplementationWrapper } from '@testing-library/user-event/dist/
 export const CommunicableDiseases = () => {
   return (
     <section className="communicable-diseases-container">
-      <header></header>
+      <Menu />
       <h1>Combate a doenças transmissívies</h1>
       <section className="communicable-diseases-intro">
         <div className="intro-description">
