@@ -16,23 +16,23 @@ function Menu(){
                     </div>
                     <ul className="navbar-nav">
                         <li className={`${location.pathname === '/' ? 'selected' : ''} nav-link`}>
-                            <a className="nav-link" href="#"><Link to="/">Home</Link></a>
+                           <Link className="nav-link" to="/">Home</Link>
                         </li>
 
                         <li className={`${location.pathname === '/mortalidade' ? 'selected' : ''} nav-link`}>
-                            <a className="nav-link" href="#">Mortalidade Infantil</a>
+                            <Link className="nav-link" to="/mortalidade-infantil">Mortalidade Infantil</Link>
                         </li>
 
                         <li className={`${location.pathname === '/communicable-diseases' ? 'selected' : ''} nav-link`}>
-                            <a className="nav-link" href="#"><Link to="/communicable-diseases">Doenças transmissíveis</Link></a>
+                           <Link className="nav-link" to="/communicable-diseases">Doenças transmissíveis</Link>
                         </li>
 
                         <li className={`${location.pathname === '/Dcnt' ? 'selected' : ''} nav-link`}>
-                            <a className="nav-link" href="#"><Link to="/Dcnt">Doenças Não Transmissíveis</Link></a>
+                           <Link className="nav-link" to="/Dcnt">Doenças Não Transmissíveis</Link>
                         </li>
 
                         <li className={`${location.pathname === '/Saude' ? 'selected' : ''} nav-link`}>
-                            <a className="nav-link" href="#"><Link to="/Saude">Saúde Geral</Link></a>
+                           <Link className="nav-link" to="/Saude">Saúde Geral</Link>
                         </li>
                     </ul>
                 </div>
