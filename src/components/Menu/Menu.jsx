@@ -20,7 +20,7 @@ function Menu(){
                         </li>
 
                         <li className={`${location.pathname === '/mortalidade' ? 'selected' : ''} nav-link`}>
-                            <Link className="nav-link" to="/mortalidade-infantil">Mortalidade Infantil</Link>
+                            <Link className="nav-link" to="/Mortalidade">Mortalidade Infantil</Link>
                         </li>
 
                         <li className={`${location.pathname === '/communicable-diseases' ? 'selected' : ''} nav-link`}>
