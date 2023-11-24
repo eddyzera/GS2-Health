@@ -1,35 +1,50 @@
 import React, { useState } from 'react'
 import './style.css'
 
-function InputRepeat () {
-  const [nameRemedy, setNameRemedy] = useState('')
-  const [quantity, setQuantity] = useState('')
-  const [time, setTime] = useState('')
-console.table(nameRemedy, quantity, time)
+function InputRepeat ({ inputFields, onInputChange }) {
+
+  const [repeatState, setRepeatState] = useState({
+    nameRemedy: "",
+    quantity: "",
+    time: ""
+  })
+
   return (
     <div className='input-repeat'>
       <div>
         <label>Nome do Remédio</label>
         <input
           type="text"
-          value={nameRemedy}
-          onChange={(event) => setNameRemedy(event.target.value)}
+          name="nameRemedy"
+          value={inputFields.nameRemedy}
+          onChange={(event) => onInputChange({
+            ...inputFields,
+            [event.target.name]: event.target.value
+          })}
         />
       </div>
       <div>
         <label>Quantidade</label>
         <input
           type="text"
-          value={quantity}
-          onChange={(event) => setQuantity(event.target.value)}
+          name="quantity"
+          value={inputFields.quantity}
+          onChange={(event) => onInputChange({
+            ...inputFields,
+            [event.target.name]: event.target.value
+          })}
         />
       </div>
       <div>
         <label>Horario</label>
         <input
           type="text"
-          value={time}
-          onChange={(event) => setTime(event.target.value)}
+          name="time"
+          value={inputFields.time}
+          onChange={(event) => onInputChange({
+            ...inputFields,
+            [event.target.name]: event.target.value
+          })}
         />
       </div>
     </div>

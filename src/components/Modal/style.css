@@ -92,3 +92,26 @@
   margin-top: 16px;
   font-size: 20px;
 }
+
+.action-wrapper {
+  width: 100%;
+  margin: 8px 0;
+}
+
+.add-more {
+  border: 0;
+  background-color: #1c6b6c;
+  color: #9fd9da;
+  width: 100%;
+  padding: 14px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 8px;
+
+  margin-bottom: 8px;
+}
+
+.add-more:hover {
+  transition: filter 0.3s;
+  filter: brightness(0.9);
+}
