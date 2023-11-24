@@ -78,6 +78,7 @@ function Modal ({ onClose }) {
                 type='button' 
                 onClick={(event) => {
                   handleSubmit()
+                  onClose()
                 }}
               >
                 Enviar
