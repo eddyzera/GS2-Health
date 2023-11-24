@@ -1,13 +1,12 @@
 
 
-
-*{
+.container-fluid {
   padding: 0;
   margin: 0;
   font-family: 'Roboto Slab', serif;
 }
 
-h3
+.container-fluid h3
 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -17,28 +16,27 @@ h3
   font-size: calc(1.3rem + 0.6vw);
 }
 
-img
+.container-fluid img
 {
   width: 40px;
   height: 40px;
 }
 
-ul
+.container-fluid ul
 {
   list-style: none;
 }
-
-ul li a img {
+.navbar-brand img {
   width: 100px;
   height: 85px;
 }
 
-.nav
+.container-fluid .nav
 {
   text-align: center;
 }
 
-.nav-link 
+.container-fluid .nav-link 
 {
   padding-top: 20px;
 }
@@ -48,14 +46,14 @@ ul li a img {
   padding-left: 10px;
 }
 
-.exameMedico img
+.container-fluid .exameMedico img
 {
   height: 100vh;
   width: 48vw;
   border-radius: 10px;
 }
 
-.fatorRisco img
+.container-fluid .fatorRisco img
 {
   height: 483px;
   width: 1350px;
@@ -64,67 +62,67 @@ ul li a img {
 }
 
 
-.text
+.container-fluid .text
 {
   
   border-radius: 10px;
 }
 
-.text img
+.container-fluid .text img
 {
   height: 612px;
   width: 812px;
   border-radius: 10px;
 }
 
-.text h1
+.container-fluid .text h1
 {
   font-size: 50px;
   text-align: center;
 }
 
-.text p
+.container-fluid .text p
 {
   font-size: 20px;
 }
 
-.bi
+.container-fluid .bi
 {
   width: 20px;
   height: 20px;
 }
 
-.row
+.container-fluid .row
 {
   padding: 0;
 }
 
-.col-12
+.container-fluid .col-12
 {
   padding: 0;
 }
 
-.textoDoenca
+.container-fluid .textoDoenca
 {
   display: inline;
   font-weight: bold;
   font-size: larger;
 }
 
-.iconeDoenca
+.container-fluid .iconeDoenca
 {
   display: inline;
   
 }
 
-.fatorRisco img
+.container-fluid .fatorRisco img
 {
   width: 542px;
   height: 460px;
   padding-right: 5px;
 }
 
-.background-1
+.container-fluid .background-1
 {
   display: flex;
   background-color: var(--bg-light-green);
@@ -132,18 +130,23 @@ ul li a img {
   padding-left: 5vh;
 }
 
-.background-2
+.container-fluid .background-2
 {
   display: flex;
   padding: 2vw 10vh;
 }
 
-.background-1, col-6
+.container-fluid .col-4
+{
+  padding: 2vw 2vh;
+}
+
+.container-fluid .background-1, col-6
 {
   justify-content: center;
 }
 
-.textoDoenca2
+.container-fluid .textoDoenca2
 {
   background: linear-gradient(rgb(160, 217, 218, 0.4), rgb(5, 95, 97, 0.4));
   height: 15rem;

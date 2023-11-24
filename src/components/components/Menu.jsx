@@ -1,47 +1,43 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import './Menu.css';
-import '../../index.css';
+import { Link, useLocation } from 'react-router-dom';
+import "./Menu.css";
 
 import Logo from "../../assets/images/channels4_profile-removebg-preview(1).png";
 
 function Menu(){
+
+       const location = useLocation();
+
     return(
-        <>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <ul class="navbar-nav">
-                        
-                        <li class="navbar-brand" href="#">
-                            <a class="navbar-brand" href="#">
-                                <img src={Logo} alt="" />
-                            </a>
+            <nav className="navbar navbar-expand-lg bg-light">
+                <div className="menu-container">
+                    <div className="navbar-brand">
+                    <img src={Logo} alt="" />
+                    </div>
+                    <ul className="navbar-nav">
+                        <li className={`${location.pathname === '/' ? 'selected' : ''} nav-link`}>
+                            <a className="nav-link" href="#"><Link to="/">Home</Link></a>
                         </li>
 
-                        <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/">Home</Link></a>
+                        <li className={`${location.pathname === '/mortalidade' ? 'selected' : ''} nav-link`}>
+                            <a className="nav-link" href="#">Mortalidade Infantil</a>
                         </li>
 
-                        <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/MortalidadeInfantil">Mortalidade Infantil</Link></a>
+                        <li className={`${location.pathname === '/communicable-diseases' ? 'selected' : ''} nav-link`}>
+                            <a className="nav-link" href="#"><Link to="/communicable-diseases">Doenças transmissíveis</Link></a>
                         </li>
 
-                        <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/communicable-diseases">Doenças transmissíveis</Link></a>
+                        <li className={`${location.pathname === '/Dcnt' ? 'selected' : ''} nav-link`}>
+                            <a className="nav-link" href="#"><Link to="/Dcnt">Doenças Não Transmissíveis</Link></a>
                         </li>
 
-                        <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/Dcnt">Doenças Não Transmissíveis</Link></a>
-                        </li>
-
-                        <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/Saude">Saúde Geral</Link></a>
+                        <li className={`${location.pathname === '/Saude' ? 'selected' : ''} nav-link`}>
+                            <a className="nav-link" href="#"><Link to="/Saude">Saúde Geral</Link></a>
                         </li>
                     </ul>
                 </div>
 
             </nav>
-        </>
     )
 }
 

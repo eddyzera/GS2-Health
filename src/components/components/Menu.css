@@ -1,5 +1,28 @@
-a
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar a
 {
   text-decoration: none;
   color: #000;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu-container ul li:hover a {
+  text-decoration: underline;
+}
+
+.menu-container > ul > .selected a {
+  color: var(--font-gray-200);
+}
+.menu-container > ul > .selected:hover a {
+  cursor: not-allowed;
+  text-decoration: none;
 }
