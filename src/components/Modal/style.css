@@ -20,6 +20,10 @@
   position: relative;
 
   z-index: 8;
+
+  max-height: 780px;
+  max-width: 660px;
+  overflow: auto;
 }
 
 .modal-header {
@@ -31,7 +35,7 @@
 }
 
 .modal-header h2 {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .modal-header .modal-close {
@@ -40,9 +44,6 @@
   height: 30px;
   background-color: #1c6b6c;
   color: #9fd9da;
-  position: absolute;
-  top: -8px;
-  right: -8px;
 
   display: flex;
   align-items: center;
@@ -60,7 +61,7 @@
   justify-content: center;
 }
 
-.modal-body form div {
+.modal-body form .input-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -85,4 +86,9 @@
   font-size: 20px;
 
   border-radius: 8px;
+}
+
+.input-repeat-wrapper h2 {
+  margin-top: 16px;
+  font-size: 20px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import InputRepeat from '../InputRepeat/InputRepeat'
 
 function Modal ({ onClose }) {
   return (
@@ -13,17 +14,23 @@ function Modal ({ onClose }) {
         </div>
         <div className='modal-body'>
           <form>
-            <div>
+            <div className='input-wrapper'>
               <label>Nome</label>
               <input type="text" />
             </div>
-            <div>
+            <div className='input-wrapper'>
               <label>Email</label>
               <input type="email" />
             </div>
-            <div>
+            <div className='input-wrapper'>
               <label>Telefone</label>
               <input type="tel" />
+            </div>
+            <div className='input-repeat-wrapper'>
+              <h2>Registre os seus remedios</h2>
+              <InputRepeat />
+              <InputRepeat />
+              <InputRepeat />
             </div>
           </form>
         </div>

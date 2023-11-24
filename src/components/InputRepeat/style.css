@@ -1,0 +1,5 @@
+.input-repeat {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 100px);
+  gap: 8px;
+}
