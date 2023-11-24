@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import "./Menu.css";
+import './Menu.css';
+import '../../index.css';
 
 import Logo from "../../assets/images/channels4_profile-removebg-preview(1).png";
 
@@ -18,11 +19,11 @@ function Menu(){
                         </li>
 
                         <li class="nav-link">
-                            <a class="nav-link" href="#"><Link to="/Home">Home</Link></a>
+                            <a class="nav-link" href="#"><Link to="/">Home</Link></a>
                         </li>
 
                         <li class="nav-link">
-                            <a class="nav-link" href="#">Mortalidade Infantil</a>
+                            <a class="nav-link" href="#"><Link to="/MortalidadeInfantil">Mortalidade Infantil</Link></a>
                         </li>
 
                         <li class="nav-link">

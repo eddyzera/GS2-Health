@@ -90,8 +90,8 @@ ul li a img {
 
 .bi
 {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .row
@@ -138,11 +138,6 @@ ul li a img {
   padding: 2vw 10vh;
 }
 
-.col-4
-{
-  padding: 2vw 2vh;
-}
-
 .background-1, col-6
 {
   justify-content: center;
@@ -153,6 +148,12 @@ ul li a img {
   background: linear-gradient(rgb(160, 217, 218, 0.4), rgb(5, 95, 97, 0.4));
   height: 15rem;
   padding: 30px;
+}
+
+#background3Arruma
+{
+  display: flex;
+  background-color: white;
 }
 
 /*# sourceMappingURL=Dcnt.css.map */

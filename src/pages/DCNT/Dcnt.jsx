@@ -222,16 +222,18 @@ function Dcnt(){
                     </div>
                 </div>
                     <div class="row">
-                        <div class="col-4">
-                            <p>Essas doenças compartilham fatores de risco comuns, incluindo hábitos de vida pouco saudáveis, como dieta inadequada, sedentarismo, tabagismo e consumo excessivo de álcool. O impacto das DCNT na saúde global é significativo, representando uma carga substancial para os sistemas de saúde e contribuindo para a morbidade e a mortalidade em todo o mundo. Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública.</p>
-                        </div>
+                        <div id="background3Arruma">
+                            <div class="col-4">
+                                <p>Essas doenças compartilham fatores de risco comuns, incluindo hábitos de vida pouco saudáveis, como dieta inadequada, sedentarismo, tabagismo e consumo excessivo de álcool. O impacto das DCNT na saúde global é significativo, representando uma carga substancial para os sistemas de saúde e contribuindo para a morbidade e a mortalidade em todo o mundo. Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública.</p>
+                            </div>
 
-                        <div class="col-4">
-                        <p>Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública. Estratégias abrangentes que visam modificar os comportamentos de risco, promover estilos de vida saudáveis e facilitar o acesso a cuidados médicos preventivos são fundamentais. Além disso, investimentos contínuos em pesquisas para compreender melhor os mecanismos subjacentes e desenvolver tratamentos inovadores são cruciais para enfrentar o desafio crescente apresentado pelas DCNT.</p>
-                        </div>
+                            <div class="col-4">
+                            <p>Portanto, a prevenção, o diagnóstico precoce e o manejo eficaz dessas condições são de extrema importância para a promoção da saúde pública. Estratégias abrangentes que visam modificar os comportamentos de risco, promover estilos de vida saudáveis e facilitar o acesso a cuidados médicos preventivos são fundamentais. Além disso, investimentos contínuos em pesquisas para compreender melhor os mecanismos subjacentes e desenvolver tratamentos inovadores são cruciais para enfrentar o desafio crescente apresentado pelas DCNT.</p>
+                            </div>
 
-                        <div class="col-4">
-                            <p>É imperativo que os esforços de saúde pública se concentrem não apenas na gestão das doenças, mas também na criação de ambientes que incentivem escolhas saudáveis. Isso inclui iniciativas para melhorar a educação sobre saúde, políticas de preços que tornem alimentos saudáveis mais acessíveis, espaços públicos que promovam a atividade física e campanhas anti-tabagismo eficazes. Ao abordar esses aspectos de maneira integrada, é possível reduzir a incidência de DCNT e, consequentemente, aliviar a pressão sobre os sistemas de saúde, proporcionando uma melhoria substancial na qualidade de vida da população mundial.</p>
+                            <div class="col-4">
+                                <p>É imperativo que os esforços de saúde pública se concentrem não apenas na gestão das doenças, mas também na criação de ambientes que incentivem escolhas saudáveis. Isso inclui iniciativas para melhorar a educação sobre saúde, políticas de preços que tornem alimentos saudáveis mais acessíveis, espaços públicos que promovam a atividade física e campanhas anti-tabagismo eficazes. Ao abordar esses aspectos de maneira integrada, é possível reduzir a incidência de DCNT e, consequentemente, aliviar a pressão sobre os sistemas de saúde, proporcionando uma melhoria substancial na qualidade de vida da população mundial.</p>
+                            </div>
                         </div>
                     <div class="row">
                         <div class="col-12">
