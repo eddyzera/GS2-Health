@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Menu from "../../components/components/Menu";
+import Menu from "../../components/Menu/Menu";
 import '../../../node_modules/bootstrap/';
 import 'bootstrap/dist/css/bootstrap.css';
 import bootstrap from 'bootstrap'

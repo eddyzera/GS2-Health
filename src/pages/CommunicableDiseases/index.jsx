@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Menu from '../../components/components/Menu';
+import Menu from '../../components/Menu/Menu';
 
 import diseases from "../../assets/images/diseases.png"
 import covid from "../../assets/images/covid.png"

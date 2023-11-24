@@ -2,7 +2,7 @@ import React from "react";
 import Bootstrap from "../../../node_modules/bootstrap/dist/css/bootstrap.css";
 import "./Dcnt.css";
 import { Link } from 'react-router-dom';
-import Menu from "../../components/components/Menu";
+import Menu from "../../components/Menu/Menu";
 
 import Logo from "../../assets/images/channels4_profile-removebg-preview(1).png";
 import Coracao from "../../assets/images/coracao.png";

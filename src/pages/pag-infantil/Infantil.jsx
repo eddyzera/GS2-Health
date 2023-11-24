@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import Menu from '../../components/components/Menu';
+import Menu from '../../components/Menu/Menu';
 
 import banner from '../../assets/images/banner_top.jpg'
 import intro from '../../assets/images/intro.jpg'
@@ -236,13 +236,7 @@ function App() {
                   <img src={orientemedio} className="img-fluid" alt="duas crianças do oriente-medio" />
                 </div>
               </div>
-          
           </div>
-          
-          
-          
-          
-
         </div>
       </>
     )

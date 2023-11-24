@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from "../../components/components/Menu";
+import Menu from "../../components/Menu/Menu";
 import './style.css'
 
 export const Home = () => {
