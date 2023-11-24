@@ -2,7 +2,7 @@ import React from 'react'
 import { Home } from './pages/Home'
 import Dcnt  from './pages/DCNT/Dcnt'
 import Saude from './pages/Saude/Saude';
-import Infantil from './pages/pag-infantil/Infantil';
+import Mortalidade from './pages/pag-infantil/Infantil';
 import { CommunicableDiseases } from './pages/CommunicableDiseases'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -14,7 +14,7 @@ export const App = () => {
         <Route path='/communicable-diseases' element={<CommunicableDiseases />} />
         <Route path='/Dcnt' element={<Dcnt />} />
         <Route path='/Saude' element={<Saude/>}/>
-        <Route path='/MortalidadeInfantil' element={<Infantil/>}/>
+        <Route path='/Mortalidade' element={<Mortalidade/>}/>
       </Routes>
     </BrowserRouter>
   )
