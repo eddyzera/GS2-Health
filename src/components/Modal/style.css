@@ -1,0 +1,88 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.187);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.modal-wrapper {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+
+  position: relative;
+
+  z-index: 8;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+}
+
+.modal-header .modal-close {
+  border: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #1c6b6c;
+  color: #9fd9da;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+
+
+}
+
+.modal-body form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.modal-body form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 8px 0;
+
+  width: 100%;
+}
+
+.modal-body form div label {
+  font-size: 16px;
+  color: var(--font-gray-500);
+  margin-bottom: 8px;
+}
+
+.modal-body form div input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #979797;
+
+  color: var(--font-gray-500);
+  font-size: 20px;
+
+  border-radius: 8px;
+}
