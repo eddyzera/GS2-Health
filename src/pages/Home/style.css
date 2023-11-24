@@ -1,3 +1,37 @@
-h1 {
-  color: red;
+.banner {
+  background-image: url("../../assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 111px);
+  width: 100%;
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 0 20px;
+}
+
+.card {
+  border: 0;
+  padding: 24px;
+  max-width: 550px;
+}
+
+.card .card-button {
+  border: 0;
+  background-color: var(--font-green-500);
+  color: var(--bg-light-green);
+  max-width: 250px;
+  padding: 14px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 8px;
+}
+
+.card .card-button:hover {
+  transition: filter 0.3s;
+  filter: brightness(0.9);
 }
