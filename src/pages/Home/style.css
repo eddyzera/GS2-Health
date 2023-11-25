@@ -35,3 +35,9 @@
   transition: filter 0.3s;
   filter: brightness(0.9);
 }
+
+/* */
+#faleConosco
+{
+  text-align: center;
+}
