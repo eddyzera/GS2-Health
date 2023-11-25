@@ -36,7 +36,7 @@ function Modal ({ onClose }) {
     <div className='modal-overlay'>
       <div className='modal-wrapper'>
         <div className='modal-header'>
-          <h2>Cillum magna eiusmod ex aliquip.</h2>
+          <h2>Insira seus dados.</h2>
           <button className='modal-close' onClick={() => onClose()}>
             x
           </button>
