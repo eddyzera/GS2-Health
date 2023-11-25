@@ -5,6 +5,7 @@ import Saude from './pages/Saude/Saude';
 import Mortalidade from './pages/pag-infantil/Infantil';
 import { CommunicableDiseases } from './pages/CommunicableDiseases'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ContactUs from './components/ContactUs';
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
         <Route path='/Dcnt' element={<Dcnt />} />
         <Route path='/Saude' element={<Saude/>}/>
         <Route path='/Mortalidade' element={<Mortalidade/>}/>
+        <Route path='/contact-us' element={<ContactUs/>}/>
       </Routes>
     </BrowserRouter>
   )
