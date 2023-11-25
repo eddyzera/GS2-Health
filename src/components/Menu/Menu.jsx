@@ -34,6 +34,9 @@ function Menu(){
                         <li className={`${location.pathname === '/Saude' ? 'selected' : ''} nav-link`}>
                            <Link className="nav-link" to="/Saude">Saúde Geral</Link>
                         </li>
+                        <li className={`${location.pathname === '/contact-us' ? 'selected' : ''} nav-link`}>
+                           <Link className="nav-link" to="/contact-us">Fale Conosco</Link>
+                        </li>
                     </ul>
                 </div>
 
